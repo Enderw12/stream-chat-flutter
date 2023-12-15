@@ -120,7 +120,6 @@ class StreamChatState extends State<StreamChat> {
                 data: materialTheme.copyWith(
                   primaryIconTheme: streamTheme.primaryIconTheme,
                   colorScheme: materialTheme.colorScheme.copyWith(
-                    secondary: streamTheme.colorTheme.accentPrimary,
                   ),
                 ),
                 child: StreamChatCore(
